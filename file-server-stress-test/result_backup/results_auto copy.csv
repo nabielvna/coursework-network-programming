@@ -1,0 +1,10 @@
+No,ServerModel,Operation,Volume,ClientPool,ServerPool,TimePerClient(s),Throughput(bytes/s),ClientOK,ClientFail,ServerOK,ServerFail
+1,mt,download,10MB,1,1,0.04,0,0,1,0,1
+2,mt,download,10MB,1,5,17.57,596927,1,0,1,0
+3,mt,download,10MB,1,50,20.29,516719,1,0,1,0
+4,mt,download,10MB,5,1,41.97,499683,2,3,2,3
+5,mt,download,10MB,5,5,136.14,385101,5,0,5,0
+6,mt,download,10MB,5,50,97.22,539272,5,0,5,0
+7,mt,download,10MB,50,1,42.18,497170,2,48,2,48
+8,mt,download,10MB,50,5,125.57,417511,5,45,5,45
+9,mt,download,10MB,50,50,990.54,529295,50,0,50,0
